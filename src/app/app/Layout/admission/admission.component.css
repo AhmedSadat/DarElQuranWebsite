@@ -1,0 +1,213 @@
+
+.addmissionBack{
+    width: 100% ;
+    height: 487px;
+    background-image: url(../../../../assets/images/addmissionBack.png) ;
+    background-position: center ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+}
+
+.addmissionMask {
+
+    width: 100% ;
+    height: 487px ;
+    background-image: url(../../../../assets/images/addmissionMask.png) ;
+    background-position: center ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+}
+
+.addBr{
+    width: 100% ;
+    height: 28px;
+    background: #998675 ;   
+}
+
+
+.generalAdd{
+
+    width: 100% ;
+    height: 100% ;
+    background-image: url(../../../../assets/images/generalAdd.png) ;
+    background-position: center ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+
+}
+
+.addWord{
+
+    width: fit-content ;
+    height: fit-content ;
+    margin: auto ;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center ;
+    padding: 20px ;
+}
+
+.addWord p {
+    font-size: 40px ;
+}
+
+.addWord span {
+    text-transform: uppercase ;
+}
+
+.generalAdd > * {
+    color: #998675 ;
+}
+
+.generalAdd h2 {
+    margin-bottom: 10px ;
+}
+
+.content {
+    padding: 10px ;
+}
+
+.content p {
+    text-align: justify;
+   text-justify: inter-word;
+}
+
+.ako {
+
+    margin-top: 20px ;
+}
+
+.upper , .content2 , .htshl {
+    display: none ;
+}
+
+@media (max-width: 576px) {
+
+    .addSec , .addBr , .generalAdd{
+              display: none ;
+    }
+
+    .upper {
+         
+        display: block ;
+        padding: 20px ;
+         text-align: center ;
+         background-image: url(../../../../assets/images/Rectangle172.png);
+         background-size: cover ;
+         background-repeat: no-repeat ;
+         background-position: center ;
+         width: 100% ;
+         height: 100%;
+    }
+    
+    .upper p {
+
+        font-size: 24px ;
+        color: #5C2D0A ;
+    }
+
+    .upper span {
+        color: #5C2D0A
+    }
+
+    .wrapper {
+
+        margin: 100px auto ;
+
+    }
+
+    .upperMask {
+        
+        padding: 20px ;
+        text-align: center ;
+        background-image: url(../../../../assets/images/arabisc.png);
+        background-size: cover ;
+        background-repeat: no-repeat ;
+        background-position: center ;
+        width: 100% ;
+        height: 100%;
+    }
+
+    .content2 {
+
+        display: block ;
+        padding: 20px ;
+        text-align: center ;
+        background-image: url(../../../../assets/images/Rectangle122@2x.png);
+        background-size: cover ;
+        background-repeat: no-repeat ;
+        background-position: center ;
+        width: 100% ;
+        height: 100%;
+    }
+
+    .contentMask {
+        /* padding: 20px ; */
+        text-align: center ;
+        background-image: url(../../../../assets/images/arabisc.png);
+        background-size: cover ;
+        background-repeat: no-repeat ;
+        background-position: center ;
+        width: 100% ;
+        height: 100%;
+    }
+  
+    .contentMask p {
+        color: white ;
+    }
+
+    .htshl{
+        display: block ;
+        padding: 20px ;
+        background-image: url(../../../../assets/images/Path940.png);
+        background-size: cover ;
+        background-repeat: no-repeat ;
+        background-position: center ;
+       }
+    
+       .htsh {
+           display: block ;
+      
+    }
+    
+    .form-group > input, textarea {
+        background-color: transparent ;
+        border: 1px solid #754C28 ;
+    }
+    
+    .htsh p {
+    
+    
+        color: #998675 ;
+        font-size: 20px ;
+    }
+    
+    .htsh form {
+     
+        display: flex ;
+        justify-content: center ;
+        align-content: center ;
+        flex-direction: column ;
+    
+    }
+    
+    .htsh button {
+        background-color: transparent ;
+        width: 100px ;
+        height: 40px;
+        border: 1px solid #998675 ;
+        outline: none ;
+        color: #998675 ;
+        padding: 10px ;
+        margin: auto;
+    }
+    
+    .social {
+    
+        margin-top: 30px ;
+    }
+    
+    .social p img {
+        margin-right: 20px ;
+    }
+   
+}

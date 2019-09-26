@@ -1,0 +1,89 @@
+
+.navSection {
+
+    max-height: 195px ;
+}
+
+.baseNav {
+          
+    
+    height: 100%;
+    background-image: url(../../../../assets/images/navMask.png);
+    background-repeat: no-repeat ; 
+    background-size: cover ;
+    background-position: center ;
+}
+
+
+.upperNav{
+
+    width: 100% ;
+    height: 100%;
+    background-image: url("../../../../assets/images/upperNavMask.png") ;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    padding: 5px ;
+    display: flex ;
+    justify-content: space-between ;
+    align-content: space-between ;
+
+}
+
+.upperNav > * {
+
+    margin: 3px ;
+}
+
+.upperNav > span {
+    color: white ;
+}
+
+
+
+
+.navbar {
+    /* position: relative; */
+   
+
+}
+
+
+.navbar a {
+    color: white;
+    text-align: center ;
+    margin-right: 20px ;
+    text-transform: uppercase
+}
+
+
+
+
+.navbar-toggler-icon {
+
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(158,129,104)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+    background-color: #754c28 ;
+}
+
+
+.side {
+
+    top: 0px ;
+    left: 0px ;
+    overflow-x: hidden ;
+    
+}
+
+@media (max-width: 576px) {
+
+    .upperNav , .navbar-brand {
+        display: none ;
+    }
+
+    .navSection {
+        top: 40px ;
+    }
+}

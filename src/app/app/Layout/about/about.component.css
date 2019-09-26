@@ -1,0 +1,219 @@
+.first{
+    width: 100% ;
+    height: 490px;
+    background-image: url(../../../../assets/images/aboutBackground.png);
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+   
+}
+
+.second{
+    width: 100% ;
+    height: 490px;
+    background-image: url(../../../../assets/images/aboutMask.png) ;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+}
+
+.aboutWord {
+
+    width: 100%;
+    height: 100%;
+    padding: 25px ;
+    background-image: url(../../../../assets/images/background_3@2x.png) ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    background-position: center ;
+    width:fit-content; 
+    height:fit-content;
+    margin: 10px auto; 
+
+  
+}
+
+.aboutWord p {
+
+    font-size: 40px ;
+    color: #754C28;
+    text-align: center ;
+   
+}
+
+.colclo {
+
+    font-size: 24px ;
+    color: #754C28;
+    padding: 10px;
+   
+}
+
+/* .collo {
+    padding: 15px ;
+} */
+
+.sep{
+    width: 100% ;
+    height: 30px;
+    background-color: #754C28;
+}
+
+
+.background1{
+    background-image: url(../../../../assets/images/background1.png);
+    width: 100% ;
+    height: 100%;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    background-position: right top;
+}
+
+.mask1{
+    background-image: url(../../../../assets/images/mask1.png);
+    width: 100% ;
+    height: 100%;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    background-position: center;
+}
+
+.background2{
+
+    background-image: url(../../../../assets/images/background2.png);
+    width: 100% ;
+    height: 100%;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    background-position: center;
+}
+
+.mask2{
+    background-image: url(../../../../assets/images/navMask.png);
+    width: 100% ;
+    height: 100%;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    background-position: center;
+    background-color: rgba(0, 0, 0, .6)
+}
+
+.mask2 img {
+
+    margin: 15px ;
+}
+
+.stuff {
+
+    background-color: rgb(235, 230, 230) ;
+    height: fit-content;
+    width: fit-content; 
+    text-transform: uppercase ;
+    padding: 20px ;
+    margin: auto ;
+}
+
+.stuff p {
+    font-size: 30px ;
+    color: #754C28 ;
+    text-align: center ;
+}
+
+.mob {
+    display: none ;
+}
+
+.htsh {
+    display: none ;
+}
+
+@media (max-width: 576px) {
+
+    .first {
+        display: none ;
+    }
+
+    
+
+   .aboutContent {
+    background-image: url(../../../../assets/images/Rectangle172.png);
+    background-position: center; 
+    background-repeat: no-repeat ;
+    background-size: cover; 
+    width: 100% ;
+    height: 100% ;
+   }
+
+   .aboutMask{
+        
+    background-image: url(../../../../assets/images/arabisc.png);
+    background-position: center; 
+    background-repeat: no-repeat ;
+    background-size: cover; 
+    width: 100% ;
+    height: 100% ;
+   }
+
+   .colclo  {
+       color: white ;
+   }
+
+   .aboutWord {
+       margin-top: 100px
+   }
+
+   .htshl{
+    padding: 20px ;
+    background-image: url(../../../../assets/images/Path940.png);
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    background-position: center ;
+   }
+
+   .htsh {
+       display: block ;
+  
+}
+
+.form-group > input, textarea {
+    background-color: transparent ;
+    border: 1px solid #754C28 ;
+}
+
+.htsh p {
+
+
+    color: #998675 ;
+    font-size: 20px ;
+}
+
+.htsh form {
+ 
+    display: flex ;
+    justify-content: center ;
+    align-content: center ;
+    flex-direction: column ;
+
+}
+
+.htsh button {
+    background-color: transparent ;
+    width: 100px ;
+    height: 40px;
+    border: 1px solid #998675 ;
+    outline: none ;
+    color: #998675 ;
+    padding: 10px ;
+    margin: auto;
+}
+
+.social {
+
+    margin-top: 30px ;
+}
+
+.social p img {
+    margin-right: 20px ;
+}
+
+}

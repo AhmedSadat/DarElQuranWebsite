@@ -1,0 +1,160 @@
+.background{
+
+
+    background-image: url(../../../../assets/images/onlineBack.png) ;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    width: 100% ;
+    height: 487px;
+}
+
+.word {
+    width: fit-content ;
+    height: fit-content;
+    padding: 5px ;
+    margin:  20px  auto ;
+    background-image: url(../../../../assets/images/background_3@2x.png) ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    background-position: center ;
+    text-transform: uppercase ;
+    text-align: center ;
+    color: #998675 ;
+    border-top: 3px solid #998675 ;
+
+}
+
+.word p {
+    font-size: 40px ;
+    text-transform: capitalize ;
+}
+
+.social{
+    display: none ;
+}
+
+.word span {
+    font-size: 20px ;
+}
+
+.content {
+
+    background-image: url(../../../../assets/images/impoMask.png) ;
+    width: 100% ;
+    height: 100%;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    background-position: center ;
+}
+
+.form-group input,textarea {
+
+    border-radius: 10px ;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #998675 ;
+    margin: 5px
+   
+}
+
+::-webkit-input-placeholder { /* Edge */
+    color: #998675;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #998675;
+  }
+  
+  ::placeholder {
+    color: #998675;
+  }
+
+  .formula {
+      padding: 10px
+  }
+
+  .mobONline{
+      display: none ;
+  }
+
+
+  @media (max-width: 576px) {
+
+    .online {
+        display: none ;
+    }
+
+    .mobONline{
+        display: block ;
+    }
+
+    .wrapper {
+        display: none ;
+    }
+
+    .mobBack , .mobMask{
+
+         padding: 20px ; 
+
+    }
+
+    .mobBack{
+        background-image: url(../../../../assets/images/Rectangle172.png) ;
+        background-position: center ;
+        background-repeat: no-repeat ;
+        background-size: cover ;
+        width: 100% ;
+        height: 100%;
+    }
+
+    .mobMask{
+        background-image: url(../../../../assets/images/arabisc.png) ;
+        background-position: center ;
+        background-repeat: no-repeat ;
+        background-size: cover ;
+        width: 100% ;
+        height: 100%;
+    }
+
+    .wordContent{
+
+        margin: 100px auto ;
+        
+    }
+
+    .wordContent p {
+        text-align: center ;
+        font-size: 30px ;
+    }
+
+    .wordContent span {
+        text-align: center ;
+        color: white ;
+    }
+
+    .formula {
+
+        background-image: url(../../../../assets/images/Rectangle122@2x.png);
+        background-size: cover ;
+        background-repeat: no-repeat ;
+        background-position: center ;
+    }
+
+    .social {
+        
+        display: block ;
+        padding: 20px ;
+        background-image: url(../../../../assets/images/Path940.png) ;
+        background-size: cover ;
+        background-repeat: no-repeat ;
+        background-position: center ; 
+        color: white ;
+
+    }
+    
+    .social p img {
+        margin-right: 20px ;
+    }
+
+  }
+  

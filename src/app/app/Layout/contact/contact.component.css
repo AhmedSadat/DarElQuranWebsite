@@ -1,0 +1,239 @@
+.background{
+
+
+    background-image: url(../../../../assets/images/contactBack.png) ;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    width: 100% ;
+    height: 487px;
+}
+
+
+.word {
+    width: fit-content ;
+    height: fit-content;
+    padding: 10px ;
+    margin: auto ;
+    background-image: url(../../../../assets/images/contactMask.png) ;
+    background-repeat: no-repeat ;
+    background-position: center ;
+    background-size: cover; 
+    text-transform: uppercase ;
+    text-align: center ;
+    color: #998675 ;
+}
+
+.word p {
+    font-size: 40px ;
+    text-transform: capitalize ;
+}
+
+.word span {
+    font-size: 20px ;
+}
+
+.content {
+
+    background-image: url(../../../../assets/images/impoMask.png) ;
+    width: 100% ;
+    height: 100%;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    background-position: center ;
+}
+
+/* .brand {
+
+    background-image: url(../../../../assets/images/brand.png) ;
+    width: 100% ;
+    height: 117px;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    background-position: center ;
+} */
+
+.brand{
+    padding: 30px ;
+}
+
+.arabic {
+          
+   margin: 20px ;
+}
+
+.social {
+    padding: 30px ;
+    display: flex ;
+    justify-content: center ;
+    align-content: center ;
+    flex-direction: column ;
+}
+
+.bcontact {
+    margin: 10px ;
+}
+
+.social p img {
+    margin-right: 10px ;
+}
+
+.contact {
+
+    display: flex ;
+    justify-content: center ;
+    align-content: center ;
+    flex-direction: column ;
+
+}
+
+.form-group input,textarea {
+
+    border-radius: 10px ;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #998675 ;
+    margin: 5px
+   
+}
+
+.form-group textarea {
+    border-radius: 1rem;
+}
+
+
+::-webkit-input-placeholder { /* Edge */
+    color: #998675;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #998675;
+  }
+  
+  ::placeholder {
+    color: #998675;
+  }
+
+
+  .map {
+      padding: 30px ;
+      width:100%   ;
+      height: 100% ;
+      background-image: url(../../../../assets/images/mapBack.png) ;
+      background-position: center ;
+      background-size: cover ;
+      background-repeat: no-repeat ;
+  }
+
+   .mapouter {
+  
+    margin: auto;   
+    outline: 5px dotted #998675 ;
+  }
+
+  .head {
+      display: none ;
+  }
+
+  .news {
+      display: none ;
+  }
+
+  .footer {
+    display: none ;
+  }
+
+  @media (max-width: 576px) { 
+   
+    .online , .content , .map {
+        display: none ;
+    }
+
+    .head {
+        display: block ;
+        background-image: url(../../../../assets/images/topC.png) , url(../../../../assets/images/bottomC.png) ;
+        background-position: top center , bottom center ; 
+        background-repeat: no-repeat , no-repeat ;
+        background-size: 100% 50% , 100% 50% ;
+    }
+
+    .headWord {
+        margin: 100px auto ;
+        color: #998675 ;
+       
+    }
+
+    .headWord h3 {
+        text-align: center ;
+        margin-bottom: 20px ;
+    }
+
+    .divMask {
+        background-image: url(../../../../assets/images/mask.png) ;
+        background-position: center ;
+        background-repeat: no-repeat ;
+        background-size: cover ;
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .form-group input,textarea {
+
+        border-radius: 10px ;
+        background-color: rgba(0, 0, 0, 0.1);
+        border: 1px solid #998675 ;
+        margin: 5px;
+     
+       
+    }
+    
+    .form-group textarea {
+        border-radius: 1rem;
+    }
+
+    .news {
+        display: block ;
+        background-image: url(../../../../assets/images/newsBack.png) ;
+        background-repeat: no-repeat ;
+        background-size: cover ;
+        background-position: center ;
+        color: white ;
+
+    }
+
+    .newsMask {
+        background-image: url(../../../../assets/images/newsMask.png);
+        background-repeat: no-repeat ;
+        background-size: cover ;
+        background-position: center ;
+    }
+
+    .newsMask h1 {
+        text-align: center ;
+        margin: 20px auto ;
+    }
+
+    .newsItem {
+          padding: 20px ;
+    }
+
+    .newsItem p {
+        margin: auto 20px ;
+    }
+  
+    .footer {
+        display: block ;
+        color: white ;
+        background-position: center ;
+        background-image: url(../../../../assets/images/footerMask.png); 
+        background-repeat: no-repeat; 
+        background-size: cover ;
+        height: 100%;
+        width: 100%;
+    }
+
+    .social p{
+        margin: auto; 
+    }
+
+  }

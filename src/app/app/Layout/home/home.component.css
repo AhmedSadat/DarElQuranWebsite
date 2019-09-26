@@ -1,0 +1,250 @@
+/* .homeBack {
+    background-image: url(../../../../assets/images/homeFirst.png) ;
+    background-position: top right ;
+    background-repeat: no-repeat ;
+    width: 537px ;
+    height: 537px;
+} */
+
+.homeBack2 {
+    background-image: url(../../../../assets/images/homeBack.png) ;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    width: 100% ;
+    height: 768px;
+}
+
+.cimg {
+    visibility: hidden; 
+}
+
+.homeMask {
+    background-image: url(../../../../assets/images/homeMask.png) ;
+    background-position: center ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    width: 100% ;
+    height: 768px;
+    display: flex ;
+    flex-direction: column ;
+    justify-content: center ;
+    align-content: center ;
+    
+}
+
+.homeMask button {
+
+    background-color: rgba(0, 0, 0, 0.1) ; 
+    border-radius: 20px ;
+    margin: auto ;
+    border: #998675 1px solid ;
+    outline: none ;
+    color: white ;
+   width: 312px ;
+   padding: 10px ;
+   font-size: 24px 
+}
+
+.quote {
+
+    background-image: url(../../../../assets/images/quote.png) ;
+    background-position: center ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    width: 100% ;
+    height: 333px;
+}
+
+ .quoteContent p img {
+
+    margin-right: 5px ;
+
+
+}
+
+.quoteS{
+    font-size: 20px ;
+    margin-bottom: 10px ;
+}
+
+
+.quoteContent p {
+
+    text-align: center ;
+    margin: 20px auto ;
+}
+
+.quoteContent q {
+    font-size: 20px ;
+    color: #998675 ;
+}
+
+
+.all {
+    position: relative;
+}
+
+.allR {
+    position: absolute ;
+    bottom: 0px ;
+    right: 0px ;
+}
+
+
+.sa {
+
+    padding: 40px ;
+}
+
+.carousel .slide{
+
+    padding: 30px ;
+}
+
+.carousel-inner {
+
+    padding: 40px ;
+}
+
+/* .carousel-control-next {
+    background-color: black ;
+    position: static ;
+} */
+
+.carousel-caption {
+   
+    
+    
+   text-align: center ;
+   position: static ;
+}
+
+.testmoial {
+    width: 100% ;
+    height: 100%;
+    background-image: url(../../../../assets/images/TestBack.png);
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+}
+
+.head {
+    text-align: center ; 
+    background-color: #998675 ; 
+    padding: 5px ;
+    color: sienna ;
+}
+
+
+.testMask {
+
+    width: 100% ;
+    height: 100%;
+    background-image: url(../../../../assets/images/testMask.png);
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+}
+
+.carousel-control-next-icon {
+    background-image: brown ;
+}
+
+.social {
+
+    color: white ;
+
+}
+
+.part1 {
+
+    display: flex ;
+    flex-direction: column ;
+    justify-content: center;
+    align-content: center ;
+}
+
+.social {
+
+    margin-top: 20px ;
+}
+
+.social p img {
+    margin-right: 5px ;
+}
+
+.form-group > input,textarea {
+
+    background-color: transparent ;
+    border: 1px solid #998675 ;
+}
+
+.htsh {
+    padding: 10px ;
+}
+
+.htsh p {
+
+
+    color: #998675 ;
+    font-size: 20px ;
+}
+
+.htsh form {
+ 
+    display: flex ;
+    justify-content: center ;
+    align-content: center ;
+    flex-direction: column ;
+
+}
+
+.htsh button {
+    background-color: transparent ;
+    width: 100px ;
+    height: 40px;
+    border: 1px solid #998675 ;
+    outline: none ;
+    color: #998675 ;
+    padding: 10px ;
+}
+
+.homeMask img {
+
+    display: none ;
+}
+
+@media (max-width: 576px) {
+ 
+    .mos img {
+        margin: auto ;
+    }
+
+  .mos .social p{
+     text-align: center ;
+ }
+
+  form button {
+      margin: auto ;
+  }
+  
+  .homeBack2 {
+      background-image: url(../../../../assets/images/mobBack.png)
+  }
+
+  .homeMask button {
+      display: none ;
+  }
+
+  .cimg {
+      display: block ;
+      background-image: url(../../../../assets/images/imgMask.png);
+      padding: 15px ;
+      width: 200px ;
+      height: 200px;
+      
+  }
+
+    
+}
