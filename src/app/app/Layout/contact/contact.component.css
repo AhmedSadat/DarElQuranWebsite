@@ -11,17 +11,18 @@
 
 
 .word {
-    width: fit-content ;
+    width: 332px;
     height: fit-content;
     padding: 10px ;
-    margin: auto ;
+    margin: 10px auto ;
     background-image: url(../../../../assets/images/contactMask.png) ;
     background-repeat: no-repeat ;
     background-position: center ;
     background-size: cover; 
     text-transform: uppercase ;
     text-align: center ;
-    color: #998675 ;
+    color: #42210B ;
+    border-top: 3px solid #42210B ;
 }
 
 .word p {
@@ -165,6 +166,7 @@
     .headWord h3 {
         text-align: center ;
         margin-bottom: 20px ;
+       color:  #42210B
     }
 
     .divMask {
