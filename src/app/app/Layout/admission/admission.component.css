@@ -38,12 +38,13 @@
 
 .addWord{
 
-    width: fit-content ;
+    width: 331px ;
     height: fit-content ;
-    margin: auto ;
-    background-color: rgba(0, 0, 0, 0.1);
+    margin: 15px auto ;
+    background-image: url(../../../../assets/images/background_3@2x.png) ;
     text-align: center ;
-    padding: 20px ;
+    padding: 10px ;
+    color: #5C2D0A ;
 }
 
 .addWord p {
@@ -112,7 +113,17 @@
     .wrapper {
 
         margin: 100px auto ;
+        
 
+    }
+  
+    .wrapper p {
+        color: #5C2D0A ;
+        font-size: 35px ;
+    }
+
+    .wrapper span {
+        color: white ;
     }
 
     .upperMask {

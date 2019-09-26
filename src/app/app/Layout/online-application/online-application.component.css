@@ -10,7 +10,7 @@
 }
 
 .word {
-    width: fit-content ;
+    width: 332px ;
     height: fit-content;
     padding: 5px ;
     margin:  20px  auto ;
@@ -20,7 +20,7 @@
     background-position: center ;
     text-transform: uppercase ;
     text-align: center ;
-    color: #998675 ;
+    color: #42210B ;
     border-top: 3px solid #998675 ;
 
 }
@@ -119,12 +119,14 @@
     .wordContent{
 
         margin: 100px auto ;
+
         
     }
 
     .wordContent p {
         text-align: center ;
-        font-size: 30px ;
+        font-size: 35px ;
+        color: #42210B ;
     }
 
     .wordContent span {

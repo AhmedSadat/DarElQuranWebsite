@@ -221,6 +221,10 @@
         margin: auto ;
     }
 
+    .cimg {
+        visibility: visible ;
+    }
+
   .mos .social p{
      text-align: center ;
  }
