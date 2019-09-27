@@ -53,10 +53,14 @@
     color: white;
     text-align: center ;
     margin-right: 20px ;
-    text-transform: uppercase
+    text-transform: uppercase ;
+    
 }
 
-
+.active {
+    
+    border-bottom: 4px solid black ;
+}
 
 
 .navbar-toggler-icon {
