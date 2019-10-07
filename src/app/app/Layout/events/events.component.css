@@ -11,7 +11,7 @@
 .word {
     width: fit-content ;
     height: fit-content;
-    padding: 15px ;
+    padding: 25px ;
     margin: 20px auto ;
   background-image: url(../../../../assets/images/background_3@2x.png) ;
   background-position: center ;
@@ -85,6 +85,8 @@
 .news , .social {
     display: none ;
 }
+
+
 
 @media (max-width: 576px) {
 
